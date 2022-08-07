@@ -13,13 +13,31 @@ div.title{
     font-size: xx-large;  
 }
 
+div#generic{
+    margin: auto;
+    background-color:blue;
+}
 
-div.left{
+div#left{
     color: white;
+    float: left;
     text-align: left;
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+
+}
+
+div#right{
+    float: right;
+    color: white;
+    padding-left: 40em;
+    padding-right: 5em;
+    text-align: justify;
+    margin-left: auto;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
 
 }
 
